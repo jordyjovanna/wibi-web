@@ -1,0 +1,197 @@
+:root{
+	--white-color: #FFFFFF;
+	--black-color: #000000;
+	--red-color: #F23737;
+	--dark-red-color: #CF4545;
+
+}
+
+/* Navbar */
+
+
+.nav-link{
+	margin-right: 50px;
+}
+
+/* jumbotron */
+.jumbotron{
+	background-image: url(src/images/colleagues-giving-fist-bump.png);
+	background-size: cover;
+	height: 550px;
+	text-align: center;
+	box-shadow: inset 200px 200px 200px 200px  rgba(0, 0, 0, 0.445);	
+}
+
+.jumbotron .lead {
+	margin-top: 50px;
+	color: var(--white-color);
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6) ;
+}
+
+
+
+.jumbotron .display-4 {
+	color: var(--white-color);
+	text-align: center;
+	margin-top: 50px;
+}
+/* Working space */
+
+.workingspace {
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;	
+}
+.workingspace h3{
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.workingspace p{
+	font-size: 12px;
+}
+
+.info-panel{
+	background-color: var(--red-color);
+	margin-top: 50px;
+}
+
+.info-panel h3{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 36px;
+	color: var(--white-color);
+}
+
+.info-panel img{
+	display: none;
+}
+
+.info-panel .row{
+	color: var(--white-color);
+	margin-top: 41px;
+	font-size: 24px;
+	text-align: left;
+}
+
+
+.info-panel li{
+	margin-bottom: 20px;
+	margin-left: 50px;
+	
+}
+
+.ourclient{
+	margin-top: 100px;
+}
+.ourclient p{
+	font-size: 36px;
+	text-align: center;
+	
+}
+
+.ourclient img{
+	width: 100px;
+	
+}
+
+.ourclient .card{
+	margin-top: 35px;
+	margin-bottom: 67px;
+	margin-right: 30px;
+
+}
+
+footer .col{
+	background-color: var(--dark-red-color);
+	height: 280px;
+}
+
+footer h3{
+	color: var(--white-color);
+	padding-top: 62px;
+	padding-bottom: 41px;
+	font-size: 24px;
+	text-align: center;
+}
+footer p{
+	color: var(--white-color);
+	font-size: 18px;
+	align-content: center;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+/* utility */
+.tombol{
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 20px;
+	
+}
+
+@media (min-width: 992px){
+	.nav-link{
+		font-size: 20px;
+	}
+	.nav-link:hover {
+		border-bottom: 3px solid var(--red-color);
+		margin-bottom: -8px;
+	}
+
+	.workingspace {
+		margin-top: 105px;
+		margin-left: 40px;
+		margin-right: 40px;	
+	}
+	.workingspace h3{
+		font-size: 64px;
+		font-weight: bold;
+	}
+	.workingspace p{
+		font-size: 24px;
+	}
+
+	.info-panel{
+		background-color: var(--red-color);
+		margin-top: 170px;
+	}
+
+	info-panel h3{
+		font-size: 36px;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 57px;
+		color: var(--white-color);
+	}
+
+	.info-panel li{
+		margin-bottom: 50px;
+		margin-left: 150px;
+		
+	}
+
+	footer h3{
+		color: var(--white-color);
+		padding-top: 62px;
+		padding-bottom: 41px;
+		font-size: 36px;
+		text-align: left;
+	}
+
+	footer p{
+	color: var(--white-color);
+	font-size: 18px;
+	text-align: justify;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 40px;
+}
+	
+	
+	
+}
