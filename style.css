@@ -19,7 +19,8 @@
 	background-size: cover;
 	height: 550px;
 	text-align: center;
-	box-shadow: inset 200px 200px 200px 200px  rgba(0, 0, 0, 0.445);	
+	box-shadow: inset 200px 200px 200px 200px  rgba(0, 0, 0, 0.445);
+		
 }
 
 .jumbotron .lead {
@@ -55,6 +56,8 @@
 .info-panel{
 	background-color: var(--red-color);
 	margin-top: 50px;
+	margin-right: 0px;
+
 }
 
 .info-panel h3{
@@ -65,13 +68,11 @@
 	color: var(--white-color);
 }
 
-.info-panel img{
-	display: none;
-}
+
 
 .info-panel .row{
 	color: var(--white-color);
-	margin-top: 41px;
+	margin-top: 66px;
 	font-size: 24px;
 	text-align: left;
 }
@@ -85,6 +86,7 @@
 
 .ourclient{
 	margin-top: 100px;
+	margin-right: 20px;
 }
 .ourclient p{
 	font-size: 36px;
@@ -107,6 +109,8 @@
 footer .col{
 	background-color: var(--dark-red-color);
 	height: 280px;
+
+
 }
 
 footer h3{
@@ -159,6 +163,7 @@ footer p{
 	.info-panel{
 		background-color: var(--red-color);
 		margin-top: 170px;
+		
 	}
 
 	info-panel h3{
