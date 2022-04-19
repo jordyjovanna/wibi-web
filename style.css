@@ -1,8 +1,9 @@
 :root{
 	--white-color: #FFFFFF;
 	--black-color: #000000;
-	--red-color: #F23737;
-	--dark-red-color: #CF4545;
+	--blue-color: #3799F2;
+	--dark-blue-color: #457CCF;
+	--orange-color: ;
 
 }
 
@@ -54,7 +55,7 @@
 }
 
 .info-panel{
-	background-color: var(--red-color);
+	background-color: var(--blue-color);
 	margin-top: 50px;
 	margin-right: 0px;
 
@@ -75,6 +76,7 @@
 	margin-top: 66px;
 	font-size: 24px;
 	text-align: left;
+	margin-right: 120px;
 }
 
 
@@ -82,6 +84,13 @@
 	margin-bottom: 20px;
 	margin-left: 50px;
 	
+}
+
+.info-panel{
+	background-color: var(--blue-color);
+	margin-top: 50px;
+	margin-right: 0px;
+
 }
 
 .ourclient{
@@ -107,7 +116,7 @@
 }
 
 footer .col{
-	background-color: var(--dark-red-color);
+	background-color: var(--dark-blue-color);
 	height: 280px;
 
 
@@ -130,6 +139,45 @@ footer p{
 }
 
 
+.about {
+	background-color: var(--blue-color);
+}
+
+
+.founder h3{
+
+	font-weight: bold;
+	text-align: center;
+	padding-top: 36px;
+	color: var(--white-color);
+}
+
+
+
+.founder .row{
+	color: var(--white-color);
+	margin-top: 66px;
+	font-size: 24px;
+	text-align: left;
+}
+
+
+.founder li{
+	margin-bottom: 20px;
+	margin-left: 50px;
+	
+}
+
+.founder img{
+	margin-left: 10px;
+}
+
+.founder {
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+
 /* utility */
 .tombol{
 	text-align: center;
@@ -143,7 +191,7 @@ footer p{
 		font-size: 20px;
 	}
 	.nav-link:hover {
-		border-bottom: 3px solid var(--red-color);
+		border-bottom: 3px solid var(--blue-color);
 		margin-bottom: -8px;
 	}
 
@@ -160,13 +208,34 @@ footer p{
 		font-size: 24px;
 	}
 
+	.about {
+		padding-top: 100px;
+		margin-top: 10px ;
+		margin-right: 0px;
+		padding-bottom: 100px;
+	}
+
+	.about h3{
+		padding-top: 20px;
+		font-size: 36px;
+		font-weight: bold;
+		color: white ;
+	}
+	.about p{
+		font-size: 24px;
+		margin-top: 10px;
+		margin-right: 50px;
+		color: var(--white-color);
+	}
+
+
 	.info-panel{
-		background-color: var(--red-color);
+		background-color: var(--blue-color);
 		margin-top: 170px;
 		
 	}
 
-	info-panel h3{
+	.info-panel h3{
 		font-size: 36px;
 		font-weight: bold;
 		text-align: center;
@@ -179,6 +248,40 @@ footer p{
 		margin-left: 150px;
 		
 	}
+
+	.founder{
+		background-color: var(--white-color);
+		padding-top: 30px;
+		padding-bottom: 20px;
+		
+	}
+
+	.founder h3{
+		font-size: 36px;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 30px;
+		color: var(--black-color);
+	}
+
+	.founder h4{
+		font-size: 30px;
+		font-weight: bold;
+		text-align: left;
+		color: var(--black-color);
+	}
+
+	.founder li{
+		margin-bottom: 50px;
+		margin-left: 150px;
+		
+	}
+
+	.founder p{
+		margin-top: 30px;
+		font-size: 24px;
+	}
+
 
 	footer h3{
 		color: var(--white-color);
