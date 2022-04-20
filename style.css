@@ -3,7 +3,8 @@
 	--black-color: #000000;
 	--blue-color: #3799F2;
 	--dark-blue-color: #457CCF;
-	--orange-color: ;
+	--orange-color: #FF7F50 ;
+	--light-gray-color: #EBEBEB ;
 
 }
 
@@ -21,7 +22,7 @@
 	height: 550px;
 	text-align: center;
 	box-shadow: inset 200px 200px 200px 200px  rgba(0, 0, 0, 0.445);
-		
+	margin-bottom: 0px;
 }
 
 .jumbotron .lead {
@@ -38,6 +39,8 @@
 	text-align: center;
 	margin-top: 50px;
 }
+
+
 /* Working space */
 
 .workingspace {
@@ -54,6 +57,7 @@
 	font-size: 12px;
 }
 
+/* info panel */
 .info-panel{
 	background-color: var(--blue-color);
 	margin-top: 50px;
@@ -93,9 +97,13 @@
 
 }
 
+
+/* our client */
+
 .ourclient{
-	margin-top: 100px;
+	margin-top: 70px;
 	margin-right: 20px;
+	padding-bottom: 50px;
 }
 .ourclient p{
 	font-size: 36px;
@@ -122,6 +130,8 @@ footer .col{
 
 }
 
+
+/* info footer */
 footer h3{
 	color: var(--white-color);
 	padding-top: 62px;
@@ -139,10 +149,13 @@ footer p{
 }
 
 
+/* about  */
+
 .about {
 	background-color: var(--blue-color);
 }
 
+/* founder */
 
 .founder h3{
 
@@ -177,13 +190,78 @@ footer p{
 	margin-right: 0px;
 }
 
+/* ukmdesk */
+.ukmdesk{
+	background-color: var(--blue-color);
+	margin-top: 0px;
+	margin-right: 0px;
+}
 
+.ukmdesk h3{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 36px;
+	margin-top: 10px;
+	color: var(--white-color);
+}
+
+
+.ukmdesk .row{
+	color: var(--white-color);
+	margin-top: 66px;
+	font-size: 24px;
+	text-align: left;
+	margin-right: 120px;
+}
+
+
+.ukmdesk .iconed {
+	margin-top: 10px;
+	margin-right: 40px;
+	margin-left: 0px;
+	height: 61px;
+	width: 210px;
+}
+
+/* form */
+
+.form{
+	border: 1px;
+	border-color: #000000;
+	padding-top: 10px;
+	padding-left: 100px;
+	padding-bottom: 40px;
+	background-color: var(--white-color);
+	margin-right: 0px;
+}
+
+.form .form-control{
+	background-color: var(--light-gray-color);
+	
+}
+
+.form .btn{
+	float: right;
+	background-color: var(--orange-color);
+	border-color: var(--orange-color);
+}
 /* utility */
 .tombol{
 	text-align: center;
 	text-transform: uppercase;
 	border-radius: 20px;
 	
+}
+
+.btn-primary{
+	background-color: var(--blue-color);
+	border-color: var(--blue-color);
+}
+
+.btn-primary:hover{
+	background-color: var(--dark-blue-color);
+	border-color: var(--dark-blue-color);
 }
 
 @media (min-width: 992px){
@@ -249,6 +327,32 @@ footer p{
 		
 	}
 
+	.ukmdesk{
+		background-color: var(--blue-color);
+	}
+
+	.ukmdesk img{
+		margin-left:  50px;
+	}
+
+	.ukmdesk h3{
+		font-size: 36px;
+		font-weight: bold;
+		text-align: left;
+		padding-top: 70px;
+		color: var(--white-color);
+	}
+
+	.ukmdesk p{
+		font-size: 24px;
+		margin-top: 25px;
+		margin-right: 100px;
+		text-align: justify;
+		line-height: 203%;
+		color: var(--white-color);
+	}
+
+
 	.founder{
 		background-color: var(--white-color);
 		padding-top: 30px;
@@ -280,6 +384,10 @@ footer p{
 	.founder p{
 		margin-top: 30px;
 		font-size: 24px;
+	}
+
+	.form h3{
+		text-align: center;
 	}
 
 
