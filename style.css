@@ -4,6 +4,7 @@
 	--blue-color: #3799F2;
 	--dark-blue-color: #457CCF;
 	--orange-color: #FF7F50 ;
+	--dark-orange-color: #FF5A1D;
 	--light-gray-color: #EBEBEB ;
 
 }
@@ -33,13 +34,74 @@
 }
 
 
-
 .jumbotron .display-4 {
 	color: var(--white-color);
 	text-align: center;
 	margin-top: 50px;
 }
 
+/* career */
+.careertop{
+	height: 550px;
+	padding-top: 50px;
+	padding-bottom: 600px;
+	margin-right:0px ;
+	margin-bottom: 10px;
+	background-color: var(--blue-color);
+
+}
+
+.careertop .display-4{
+	margin : 0px 0px 0px 706px;
+	 font-weight: bold;
+	 color:white;
+	 text-shadow: 1px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+.careertop .banner{
+	margin: 0px 10px 0px 100px;
+}
+
+.careertop .texted{
+	margin-top: 50px;
+	margin-right: 100px;
+
+}
+
+.careertop p{
+	color:white;
+	text-align: justify;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	float: none;
+	margin: auto;
+	
+}
+/* jobs */
+
+.jobalign{
+	margin: 100px 20px 100px 20px ;
+}
+
+.jobalign .card-title{
+	text-align: center ;
+}
+
+.jobs{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+
+.jobimage{
+	width: auto;
+	height: auto;
+	margin-left: 40px;
+}
 
 /* Working space */
 
@@ -224,6 +286,30 @@ footer p{
 	width: 210px;
 }
 
+/* service menu */
+
+.servicemenu {
+	padding-top: 40px;
+	margin-right: 0px;
+	background-color: white;
+}
+
+.servicemenu .carousel-item{
+	height: 400px;
+	width: 700px;
+}
+
+.servicemenu .center{
+	margin: auto;
+	width: 50%;
+
+	padding: 10px;
+}
+
+.servicemenu .serviced{
+	background-color: var(--blue-color);
+}
+
 /* form */
 
 .form{
@@ -262,6 +348,16 @@ footer p{
 .btn-primary:hover{
 	background-color: var(--dark-blue-color);
 	border-color: var(--dark-blue-color);
+}
+
+.btn-secondary{
+	background-color: var(--orange-color);
+	border-color: var(--orange-color);
+}
+
+.btn-secondary:hover{
+	background-color: var(--dark-orange-color);
+	border-color: var(--dark-orange-color);
 }
 
 @media (min-width: 992px){
@@ -352,6 +448,16 @@ footer p{
 		color: var(--white-color);
 	}
 
+	.servicemenu h3{
+		font-size: 36px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.servicemenu .row{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
 
 	.founder{
 		background-color: var(--white-color);
