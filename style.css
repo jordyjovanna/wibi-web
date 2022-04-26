@@ -122,7 +122,7 @@
 /* info panel */
 .info-panel{
 	background-color: var(--blue-color);
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-right: 0px;
 
 }
@@ -185,15 +185,77 @@
 
 }
 
-footer .col{
-	background-color: var(--dark-blue-color);
-	height: 280px;
 
+/* description */
+
+.description{
+	border: style 0;
+	padding: 30px 0px 80px 0px;
+	display:  flex;
+	justify-content: center;
+	margin: 0px 40px 0px 40px;
 
 }
 
+.description .card{
+	box-shadow: 2px 2px 1px 1px #EBEBEB;
+}
+
+.description p{
+	text-align: justify;
+}
+
+.description .footcard{
+	float: right;
+}
+
+.description .mailed{
+	font-weight: bold;
+}
+
+.description .jobimage{
+	width: 90px;
+	height: 100px;
+}
 
 /* info footer */
+
+footer{
+    position: absolute;
+
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+}
+
+
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: var(--dark-blue-color);
+  color: #FFFFFF;
+}
+
+footer a {
+  color: white;
+  text-decoration:none;
+}
+
+
+footer .form-control {
+    background-color: white;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
 footer h3{
 	color: var(--white-color);
 	padding-top: 62px;
@@ -286,41 +348,14 @@ footer p{
 	width: 210px;
 }
 
-/* service menu */
-
-.servicemenu {
-	padding-top: 40px;
-	margin-right: 0px;
-	background-color: white;
-}
-
-.servicemenu .carousel-item{
-	height: 400px;
-	width: 700px;
-}
-
-.servicemenu .center{
-	margin: auto;
-	width: 50%;
-
-	padding: 10px;
-}
-
-.servicemenu .serviced{
-	background-color: var(--blue-color);
-}
 
 /* form */
 
+
 .form{
-	border: 1px;
-	border-color: #000000;
-	padding-top: 10px;
-	padding-left: 100px;
-	padding-bottom: 40px;
-	background-color: var(--white-color);
-	margin-right: 0px;
+	margin-right: 0px ;
 }
+
 
 .form .form-control{
 	background-color: var(--light-gray-color);
@@ -390,7 +425,7 @@ footer p{
 	}
 
 	.about h3{
-		padding-top: 20px;
+		padding-top: 10px;
 		font-size: 36px;
 		font-weight: bold;
 		color: white ;
@@ -400,6 +435,68 @@ footer p{
 		margin-top: 10px;
 		margin-right: 50px;
 		color: var(--white-color);
+	}
+
+	#MiCarousel{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		-webkit-box-shadow: 10px 10px 38px -13px rgba(0,0,0,0.75);
+		-moz-box-shadow: 10px 10px 38px -13px rgba(0,0,0,0.75);
+		box-shadow: 10px 10px 20px -13px rgba(0,0,0,0.75);
+	}
+	.carousel-img{
+		background-color: #000;
+		color: #fff;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		position: absolute;    
+		z-index: 2;
+		-webkit-clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
+		clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+		opacity: 0.8;
+	}
+	
+	.carousel-indicators li {
+		width: 10px!important;
+		height: 10px!important;
+		border-radius: 50%;
+	  }
+	  
+	.main {
+		margin: 0px 50px 0px 50px;
+		padding: 50px 0px 50px 0px;
+	}
+
+	.div-r{
+		padding: 40px;
+	}
+	
+	.carousel-title{
+		font-size: 80px;
+		font-weight: bold;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	
+	.carousel-pagination{
+		background-color: #000 !important;
+		width: 15px !important;
+		height: 15px !important;
+		border-radius: 100%;
+		position: relative;
+		bottom: -50px;
+		opacity: 0.5;
+	}
+	
+	.carousel-pagination.active{
+		opacity: 1;   
+	}
+	
+	.carousel-controls{
+		display: none;
 	}
 
 
@@ -448,21 +545,11 @@ footer p{
 		color: var(--white-color);
 	}
 
-	.servicemenu h3{
-		font-size: 36px;
-		text-align: center;
-		font-weight: bold;
-	}
-
-	.servicemenu .row{
-		margin-left: 0px;
-		margin-right: 0px;
-	}
 
 	.founder{
 		background-color: var(--white-color);
-		padding-top: 30px;
-		padding-bottom: 20px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		
 	}
 
@@ -493,6 +580,7 @@ footer p{
 	}
 
 	.form h3{
+
 		text-align: center;
 	}
 

@@ -42,73 +42,102 @@
 	</nav>
 	<!-- akhir navbar -->
 
+<div class="form">
+		<div class="row justify-content-center" style="margin-right: 0px; padding-bottom: 50px;">
+			<div class="col-md-5">
+					<br>
+					<h3> Wibi Digital User Form </h3>
 
-	<div class="row">
-		<div class="col-3"></div>
-		<div class="col-5 form">
-				<br>
-				<h3> Wibi Digital User Form </h3>
+					<form class="needs-validation" >
+						<div class="form-group">
+							<div class="row">
+								<div class="form-group col">
+									<label for ="fname"> First Name </label> <br>
+									<input type="text" class="form-control" id="fname" name="fname" placeholder="Enter your first name here" required>
+								</div>
+								<div class="col">
+									<label for="lname">Last name</label> <br>
+									<input  type="text" class="form-control" id="lname" name="lname" placeholder="Enter your last name here">
+								</div>
+							</div>
 
-				<form class="needs-validation" >
-					<div class="form-group">
-						<div class="row">
-							<div class="form-group col">
-								<label for ="fname"> First Name </label> <br>
-								<input type="text" class="form-control" id="fname" name="fname" placeholder="Enter your first name here" required>
-							</div>
-							<div class="col">
-								<label for="lname">Last name</label> <br>
-								<input  type="text" class="form-control" id="lname" name="lname" placeholder="Enter your last name here">
-							</div>
+									<label for ="femail">Email</label> <br>
+									<input required type="email" class="form-control" id="femail" aria-describedby="emailHelp" placeholder="Enter your email here" name="femail">
+									<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+									
+
+									<label for ="fphone">Phone</label> <br>
+									<input type="text" class="form-control" id="fphone" name="fphone" placeholder="Enter your phone number here"> <br>
+
+									<div class="form-group">
+										<label for="fdesc">Please describe “How do you want your apps” to be </label>
+										<textarea required class="form-control" id="fdesc" rows="3"></textarea>
+									</div>
 						</div>
+						<button class="btn btn-primary btn-lg" type="submit" href="#">SEND</a>
 
-								<label for ="femail">Email</label> <br>
-								<input required type="email" class="form-control" id="femail" aria-describedby="emailHelp" placeholder="Enter your email here" name="femail">
-								<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-								
+					</form>
+			</div>
 
-								<label for ="fphone">Phone</label> <br>
-								<input type="text" class="form-control" id="fphone" name="fphone" placeholder="Enter your phone number here"> <br>
-
-								<div class="form-group">
-									<label for="fdesc">Please describe “How do you want your apps” to be </label>
-									<textarea required class="form-control" id="fdesc" rows="3"></textarea>
-								  </div>
-					</div>
-					<button class="btn btn-primary btn-lg" type="submit" href="#">SEND</a>
-
-				</form>
 		</div>
-
-
 	</div>
 
 
 
 	 <!-- Footer  -->
 
-	<footer>
-
-			<div class="col">
-				<div class="container">
-					<h3>
-						Contact Us
-					</h3>
-				</div>
-				<div class="container">
+	 <footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<h5><i class="fa fa-road"></i> WIBI DIGITAL</h5>
 					<div class="row">
-						<img src="src/images/whatsapp-xxl 1.svg" alt="">
-						<p>+62 899 7782 7721</p>
-						<img src="src/images/Mail-Outline.svg" alt="">
-						<p>abcdefg@wibidigital.com</p>
+						<div class="col-6">
+							<ul class="list-unstyled">
+								<li><a href="">Product</a></li>
+								<li><a href="">Benefits</a></li>
+								<li><a href="">Partners</a></li>
+								<li><a href="">Team</a></li>
+							</ul>
+						</div>
+						<div class="col-6">
+							<ul class="list-unstyled">
+								<li><a href="">Documentation</a></li>
+								<li><a href="">Support</a></li>
+								<li><a href="">Legal Terms</a></li>
+								<li><a href="">About</a></li>
+							</ul>
+						</div>
 					</div>
+					<ul class="nav">
+						<li class="nav-item"><a href="" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a></li>
+						<li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+						<li class="nav-item"><a href="" class="nav-link"><i class="fa fa-github fa-lg"></i></a></li>
+						<li class="nav-item"><a href="" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
+					</ul>
+					<br>
 				</div>
-
-
+				<div class="col-md-2">
+					<h5 class="text-md-right">Contact Us</h5>
+					
+				</div>
+				<div class="col-md-5">
+					<form>
+						<fieldset class="form-group">
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+						</fieldset>
+						<fieldset class="form-group">
+							<textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+						</fieldset>
+						<fieldset class="form-group text-xs-right">
+							<button type="button" class="btn btn-secondary btn-lg">Send</button>
+						</fieldset>
+					</form>
+				</div>
 			</div>
-
-
+		</div>
 	</footer>
+
 
 
 
