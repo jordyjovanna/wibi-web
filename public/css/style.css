@@ -1,0 +1,718 @@
+:root{
+	--white-color: #FFFFFF;
+	--black-color: #000000;
+	--blue-color: #3799F2;
+	--dark-blue-color: #457CCF;
+	--orange-color: #FF7F50 ;
+	--dark-orange-color: #FF5A1D;
+	--light-gray-color: #EBEBEB ;
+
+}
+
+/* Navbar */
+
+
+.nav-link{
+	margin-right: 50px;
+}
+
+/* jumbotron */
+.jumbotron{
+	background-image: url(../images/colleagues-giving-fist-bump.png);
+	background-size: cover;
+	height: 550px;
+	text-align: center;
+	box-shadow: inset 200px 200px 200px 200px  rgba(0, 0, 0, 0.445);
+	margin-bottom: 0px;
+}
+
+.jumbotron .lead {
+	margin-top: 50px;
+	color: var(--white-color);
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6) ;
+}
+
+
+.jumbotron .display-4 {
+	color: var(--white-color);
+	text-align: center;
+	margin-top: 50px;
+}
+
+/* career */
+.careertop{
+	height: 550px;
+	padding-top: 50px;
+
+	margin-right:0px ;
+	margin-bottom: 10px;
+	background-color: var(--blue-color);
+
+}
+
+.careertop .display-4{
+	margin : 0px 0px 0px 706px;
+	 font-weight: bold;
+	 color:white;
+	 text-shadow: 1px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+.careertop .banner{
+	margin: 0px 10px 0px 100px;
+}
+
+.careertop .texted{
+	margin-top: 50px;
+	margin-right: 100px;
+
+}
+
+.careertop h3{
+	color: white;
+	font-size: 48px;
+}
+
+.careertop p{
+	font-size: 20px;
+	color:white;
+	text-align: justify;
+	margin-right: 40px;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	float: none;
+	margin: auto;
+
+}
+/* jobs */
+
+.jobalign{
+	margin: 100px 20px 100px 20px ;
+}
+
+.jobalign .card-title{
+	text-align: center ;
+}
+
+.jobs{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+
+.jobimage{
+	width: auto;
+	height: auto;
+	margin-left: 40px;
+}
+
+/* Working space */
+
+.workingspace {
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.workingspace h3{
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.workingspace p{
+	font-size: 12px;
+}
+
+/* info panel */
+.info-panel{
+	background-color: var(--blue-color);
+	margin-top: 0px;
+	margin-right: 0px;
+
+}
+
+.info-panel h3{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 36px;
+	color: var(--white-color);
+}
+
+
+
+.info-panel .row{
+	color: var(--white-color);
+	margin-top: 66px;
+	font-size: 24px;
+	text-align: left;
+	margin-right: 120px;
+}
+
+
+.info-panel li{
+	margin-bottom: 20px;
+	margin-left: 50px;
+
+}
+
+.info-panel{
+	background-color: var(--blue-color);
+	margin-top: 50px;
+	margin-right: 0px;
+
+}
+
+
+/* our client */
+
+.ourclient{
+	margin-top: 70px;
+	margin-right: 20px;
+	padding-bottom: 50px;
+}
+.ourclient p{
+	font-size: 36px;
+	text-align: center;
+
+}
+
+.ourclient img{
+	width: 100px;
+
+}
+
+.ourclient .card{
+	margin-top: 35px;
+	margin-bottom: 67px;
+	margin-right: 30px;
+
+}
+
+
+/* description */
+
+.description{
+	border: style 0;
+	padding: 30px 0px 80px 0px;
+	display:  flex;
+	justify-content: center;
+	margin: 0px 40px 0px 40px;
+
+}
+
+.description .card{
+	box-shadow: 2px 2px 1px 1px #EBEBEB;
+}
+
+.description p{
+	text-align: justify;
+}
+
+.description .footcard{
+	float: right;
+}
+
+.description .mailed{
+	font-weight: bold;
+}
+
+.description .jobimage{
+	width: 90px;
+	height: 100px;
+}
+
+/* info footer */
+
+footer{
+    position: absolute;
+
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+}
+
+
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: var(--dark-blue-color);
+  color: #FFFFFF;
+}
+
+footer a {
+  color: white;
+  text-decoration:none;
+}
+
+
+footer .form-control {
+    background-color: white;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+footer h3{
+	color: var(--white-color);
+	padding-top: 62px;
+	padding-bottom: 41px;
+	font-size: 24px;
+	text-align: center;
+}
+footer p{
+	color: var(--white-color);
+	font-size: 18px;
+	align-content: center;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+/* about  */
+
+.about {
+	background-color: var(--blue-color);
+}
+
+/* founder */
+
+.founder h3{
+
+	font-weight: bold;
+	text-align: center;
+	padding-top: 36px;
+	color: var(--white-color);
+}
+
+
+
+.founder .row{
+	color: var(--white-color);
+	margin-top: 66px;
+	font-size: 24px;
+	text-align: left;
+}
+
+
+.founder li{
+	margin-bottom: 20px;
+	margin-left: 50px;
+
+}
+
+.founder img{
+	margin-left: 10px;
+}
+
+.founder {
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+/* ukmdesk */
+.ukmdesk{
+	background-color: var(--blue-color);
+	margin-top: 0px;
+	margin-right: 0px;
+	padding-bottom: 30px;
+}
+
+.ukmdesk h3{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 36px;
+	margin-top: 10px;
+	color: var(--white-color);
+}
+
+
+.ukmdesk .row{
+	color: var(--white-color);
+	margin-top: 66px;
+	font-size: 24px;
+	text-align: left;
+	margin-right: 120px;
+}
+
+
+.ukmdesk .iconed {
+	margin-top: 10px;
+	margin-right: 40px;
+	margin-left: 0px;
+	height: 61px;
+	width: 210px;
+}
+
+
+/* form */
+
+
+.form{
+	margin-right: 0px ;
+}
+
+
+.form .form-control{
+	background-color: var(--light-gray-color);
+
+}
+
+.form .btn{
+	float: right;
+	background-color: var(--orange-color);
+	border-color: var(--orange-color);
+}
+/* utility */
+.tombol{
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 20px;
+
+}
+
+.btn-primary{
+	background-color: var(--blue-color);
+	border-color: var(--blue-color);
+}
+
+.btn-primary:hover{
+	background-color: var(--dark-blue-color);
+	border-color: var(--dark-blue-color);
+}
+
+.btn-secondary{
+	background-color: var(--orange-color);
+	border-color: var(--orange-color);
+}
+
+.btn-secondary:hover{
+	background-color: var(--dark-orange-color);
+	border-color: var(--dark-orange-color);
+}
+
+.dropdown img{
+	width: 24px;
+	height: 24px;
+}
+
+@media screen and (max-width: 600px) {
+	.main{
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-right: 0px;
+	}
+
+	.row{
+		margin: 0px 0px 0px 0px;
+
+	}
+
+	.workingspace{
+		padding: 20px 0px 20px 0px;
+	}
+
+	.workingspace img{
+		margin-top: 120px;
+	}
+
+	.info-panel{
+		padding-bottom: 30px;
+	}
+
+	.info-panel img{
+		display: none;
+	}
+
+	.careertop{
+		padding-bottom: 600px;
+
+	}
+
+	.careertop h3{
+		color: white;
+		font-size: 36px;
+	}
+
+	.careertop p{
+		font-size: 16px;
+		padding-right: 10px;
+
+		color:white;
+		text-align: justify;
+		margin-right: 40px;
+	}
+
+
+	.careertop img{
+		display: hidden;
+	}
+
+
+	.ukmdesk img{
+		margin-top: 150px;
+	}
+
+	.carousel-title{
+		font-size: 40px;
+		color: white;
+		font-weight: bold;
+	}
+
+	.founder img{
+		margin-top: 200px;
+	}
+
+	.founder h3{
+		color: #000;
+		text-align: left;
+	}
+
+	.about h3{
+		color: white;
+		text-align: left;
+	}
+
+	.about p{
+		color: white;
+	}
+
+
+
+	.about img{
+		margin-top: 200px;
+	}
+
+	.ukmdesk .iconed{
+		margin-right: 0px;
+
+	}
+
+	.ukmdesk p{
+		color: white;
+	}
+
+  }
+
+@media (min-width: 992px){
+	.nav-link{
+		font-size: 20px;
+	}
+	.nav-link:hover {
+		border-bottom: 3px solid var(--blue-color);
+		margin-bottom: -8px;
+	}
+
+	.workingspace {
+		margin-top: 105px;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	.workingspace h3{
+		font-size: 64px;
+		font-weight: bold;
+	}
+	.workingspace p{
+		font-size: 24px;
+	}
+
+	.about {
+		padding-top: 100px;
+
+		margin-right: 0px;
+		padding-bottom: 100px;
+	}
+
+	.about h3{
+		padding-top: 10px;
+		font-size: 36px;
+		font-weight: bold;
+		color: white ;
+	}
+	.about p{
+		font-size: 24px;
+		margin-top: 10px;
+		margin-right: 50px;
+		color: var(--white-color);
+	}
+
+	#MiCarousel{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		-webkit-box-shadow: 10px 10px 38px -13px rgba(0,0,0,0.75);
+		-moz-box-shadow: 10px 10px 38px -13px rgba(0,0,0,0.75);
+		box-shadow: 10px 10px 20px -13px rgba(0,0,0,0.75);
+	}
+	.carousel-img{
+		background-color: #000;
+		color: #fff;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 2;
+		-webkit-clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
+		clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+		opacity: 0.8;
+	}
+
+	.carousel-indicators li {
+		width: 10px!important;
+		height: 10px!important;
+		border-radius: 50%;
+	  }
+
+	.main {
+		margin: 0px 50px 0px 50px;
+		padding: 50px 0px 50px 0px;
+	}
+
+	.div-r{
+		padding: 40px;
+	}
+
+	.carousel-title{
+		font-size: 80px;
+		font-weight: bold;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	.carousel-pagination{
+		background-color: #000 !important;
+		width: 15px !important;
+		height: 15px !important;
+		border-radius: 100%;
+		position: relative;
+		bottom: -50px;
+		opacity: 0.5;
+	}
+
+	.carousel-pagination.active{
+		opacity: 1;
+	}
+
+	.carousel-controls{
+		display: none;
+	}
+
+
+	.info-panel{
+		background-color: var(--blue-color);
+		margin-top: 170px;
+
+	}
+
+	.info-panel h3{
+		font-size: 36px;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 57px;
+		color: var(--white-color);
+	}
+
+	.info-panel li{
+		margin-bottom: 50px;
+		margin-left: 150px;
+
+	}
+
+	.ukmdesk{
+		background-color: var(--blue-color);
+	}
+
+	.ukmdesk img{
+		margin-left:  50px;
+	}
+
+	.ukmdesk h3{
+		font-size: 36px;
+		font-weight: bold;
+		text-align: left;
+		padding-top: 70px;
+		color: var(--white-color);
+	}
+
+	.ukmdesk p{
+		font-size: 24px;
+		margin-top: 25px;
+		margin-right: 100px;
+		text-align: justify;
+		line-height: 203%;
+		color: var(--white-color);
+	}
+
+
+	.founder{
+		background-color: var(--white-color);
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+	}
+
+	.founder h3{
+		font-size: 36px;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 30px;
+		color: var(--black-color);
+	}
+
+	.founder h4{
+		font-size: 30px;
+		font-weight: bold;
+		text-align: left;
+		color: var(--black-color);
+	}
+
+	.founder li{
+		margin-bottom: 50px;
+		margin-left: 150px;
+
+	}
+
+	.founder p{
+		margin-top: 30px;
+		font-size: 24px;
+	}
+
+	.form h3{
+
+		text-align: center;
+	}
+
+
+	footer h3{
+		color: var(--white-color);
+		padding-top: 62px;
+		padding-bottom: 41px;
+		font-size: 36px;
+		text-align: left;
+	}
+
+	footer p{
+	color: var(--white-color);
+	font-size: 18px;
+	text-align: justify;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 40px;
+}
+
+
+
+}
