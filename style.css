@@ -431,7 +431,7 @@ footer p{
 	.info-panel{
 		padding-bottom: 30px;
 	}
-	
+
 	.info-panel img{
 		display: none;
 	}
@@ -460,9 +460,6 @@ footer p{
 		display: hidden;
 	}
 
-	.jobalign .card-body{
-		width: ;
-	}
 
 	.ukmdesk img{
 		margin-top: 150px;
@@ -492,9 +489,7 @@ footer p{
 		color: white;
 	}
 
-	.about h3{
-		color: ;
-	}
+
 
 	.about img{
 		margin-top: 200px;
